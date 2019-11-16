@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	style="@style/CustomRelativeLayout"
+	android:background="#001F2B74">
+
+	<ImageView
+		android:id="@+id/logo"
+		style="@style/CustomLogoImageView"
+		android:layout_width="141dp"
+		android:layout_height="wrap_content"
+		android:layout_alignParentStart="true"
+		android:layout_alignParentTop="true"
+		android:layout_alignParentEnd="true"
+		android:layout_marginStart="138dp"
+		android:layout_marginTop="431dp"
+		android:layout_marginEnd="148dp"
+		android:contentDescription="@string/app_name" />
+
+	<ListView
+		android:id="@+id/list_view"
+		android:layout_width="wrap_content"
+		android:layout_height="102dp"
+		android:layout_below="@id/logo"
+		android:layout_marginTop="-277dp"
+		android:background="#999595"
+		android:scrollbars="none" />
+
+	<Button
+		android:id="@+id/btn_frases"
+		android:layout_width="108dp"
+		android:layout_height="68dp"
+		android:layout_alignBottom="@+id/list_view"
+		android:layout_alignParentStart="true"
+		android:layout_alignParentEnd="true"
+		android:layout_marginStart="140dp"
+		android:layout_marginEnd="147dp"
+		android:layout_marginBottom="-106dp"
+		android:text="frases" />
+
+</RelativeLayout>
